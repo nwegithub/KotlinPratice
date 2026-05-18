@@ -6,8 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         explicitButton.setOnClickListener {
 
-            val explicitIntent = Intent(this, FourthActivity::class.java)
+            val explicitIntent = Intent(this, FifthActivity::class.java)
 
             startActivity(explicitIntent)
 
