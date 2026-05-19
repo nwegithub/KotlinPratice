@@ -8,4 +8,7 @@
     </style>
 
     <style name="Theme.KotlinSplash" parent="Base.Theme.KotlinSplash" />
+<!--    <style name="App.Custom.Indicator">-->
+<!--        <item name="android:color">#FFFFFF</item>-->
+<!--    </style>-->
 </resources>
