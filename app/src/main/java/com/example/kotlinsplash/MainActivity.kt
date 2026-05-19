@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         explicitButton.setOnClickListener {
 
-            val explicitIntent = Intent(this, FifthActivity::class.java)
+            val explicitIntent = Intent(this, ViewPagerActivity::class.java)
 
             startActivity(explicitIntent)
 
